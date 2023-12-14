@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import DBTest from "./DBTest.vue";
 
 defineProps({
   msg: String,
@@ -40,6 +41,8 @@ const count = ref(0);
     <option>Delta</option>
     <option>Epsilon</option>
   </select>
+
+  <DBTest />
 </template>
 
 <style scoped>
