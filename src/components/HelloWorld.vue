@@ -40,6 +40,8 @@ const count = ref(0);
     <option>Gamma</option>
     <option>Delta</option>
     <option>Epsilon</option>
+    <option>More</option>
+    <option>Stuff</option>
   </select>
 
   <DBTest />
